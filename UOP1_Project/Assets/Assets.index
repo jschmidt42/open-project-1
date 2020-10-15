@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "type": "asset",
+    "roots": [],
+    "includes": [],
+    "excludes": [
+        "Temp/",
+        "External/",
+        "TerrainPatches/",
+        "TextMesh Pro/"
+    ],
+    "options": {
+        "disabled": false,
+        "types": true,
+        "properties": true,
+        "extended": true,
+        "dependencies": true
+    },
+    "baseScore": 100
+}

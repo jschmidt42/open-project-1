@@ -1,0 +1,13 @@
+{
+    "type": "scene",
+    "roots": [],
+    "includes": [],
+    "excludes": [],
+    "options": {
+        "types": true,
+        "properties": true,
+        "extended": false,
+        "dependencies": false
+    },
+    "baseScore": 155
+}

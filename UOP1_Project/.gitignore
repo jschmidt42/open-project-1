@@ -8,7 +8,13 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Mm]emoryCaptures/
+/[Mm]emory[Cc]aptures/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/Assets/Temp/
+/Assets/Temp.meta
+/Assets/Tests/
+/Assets/Tests.meta
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
