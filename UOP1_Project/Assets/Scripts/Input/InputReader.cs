@@ -2,19 +2,26 @@
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "Input Reader", menuName = "Game/Input Reader")]
-public class InputReader : ScriptableObject, GameInput.IGameplayActions
+[CreateAssetMenu(fileName = "InputReader", menuName = "Game/Input Reader")]
+public class InputReader : ScriptableObject, GameInput.IGameplayActions, GameInput.IDialoguesActions
 {
+	// Gameplay
 	public event UnityAction jumpEvent;
 	public event UnityAction jumpCanceledEvent;
 	public event UnityAction attackEvent;
-	public event UnityAction interactEvent;
-	public event UnityAction extraActionEvent;
+	public event UnityAction interactEvent; // Used to talk, pickup objects, interact with tools like the cooking cauldron
+	public event UnityAction extraActionEvent; // Used to bring up the inventory
 	public event UnityAction pauseEvent;
 	public event UnityAction<Vector2> moveEvent;
-	public event UnityAction<Vector2> cameraMoveEvent;
+	public event UnityAction<Vector2, bool> cameraMoveEvent;
+	public event UnityAction enableMouseControlCameraEvent;
+	public event UnityAction disableMouseControlCameraEvent;
 
-	GameInput gameInput;
+	// Dialogue
+	public event UnityAction advanceDialogueEvent = delegate { };
+	public event UnityAction onMoveSelectionEvent = delegate { };
+
+	private GameInput gameInput;
 
 	private void OnEnable()
 	{
@@ -22,40 +29,42 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
 		{
 			gameInput = new GameInput();
 			gameInput.Gameplay.SetCallbacks(this);
+			gameInput.Dialogues.SetCallbacks(this);
 		}
-		gameInput.Gameplay.Enable();
+
+		EnableGameplayInput();
 	}
 
 	private void OnDisable()
 	{
-		gameInput.Gameplay.Disable();
+		DisableAllInput();
 	}
 
 	public void OnAttack(InputAction.CallbackContext context)
 	{
 		if (attackEvent != null
-			&& context.phase == InputActionPhase.Started)
+			&& context.phase == InputActionPhase.Performed)
 			attackEvent.Invoke();
 	}
 
 	public void OnExtraAction(InputAction.CallbackContext context)
 	{
 		if (extraActionEvent != null
-			&& context.phase == InputActionPhase.Started)
+			&& context.phase == InputActionPhase.Performed)
 			extraActionEvent.Invoke();
 	}
 
 	public void OnInteract(InputAction.CallbackContext context)
 	{
 		if (interactEvent != null
-			&& context.phase == InputActionPhase.Started)
+			&& context.phase == InputActionPhase.Performed)
 			interactEvent.Invoke();
 	}
 
 	public void OnJump(InputAction.CallbackContext context)
 	{
 		if (jumpEvent != null
-			&& context.phase == InputActionPhase.Started)
+			&& context.phase == InputActionPhase.Performed)
 			jumpEvent.Invoke();
 
 		if (jumpCanceledEvent != null
@@ -74,7 +83,7 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
 	public void OnPause(InputAction.CallbackContext context)
 	{
 		if (pauseEvent != null
-			&& context.phase == InputActionPhase.Started)
+			&& context.phase == InputActionPhase.Performed)
 			pauseEvent.Invoke();
 	}
 
@@ -82,7 +91,58 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
 	{
 		if (cameraMoveEvent != null)
 		{
-			cameraMoveEvent.Invoke(context.ReadValue<Vector2>());
+			cameraMoveEvent.Invoke(context.ReadValue<Vector2>(), IsDeviceMouse(context));
 		}
+	}
+
+	public void OnMouseControlCamera(InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed)
+			enableMouseControlCameraEvent?.Invoke();
+
+		if (context.phase == InputActionPhase.Canceled)
+			disableMouseControlCameraEvent?.Invoke();
+	}
+
+	private bool IsDeviceMouse(InputAction.CallbackContext context) => context.control.device.name == "Mouse";
+
+	public void OnMoveSelection(InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed)
+			onMoveSelectionEvent();
+	}
+
+	public void OnAdvanceDialogue(InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed)
+			advanceDialogueEvent();
+	}
+
+
+	public void EnableDialogueInput()
+	{
+		gameInput.Dialogues.Enable();
+		gameInput.Gameplay.Disable();
+		gameInput.Menus.Disable();
+	}
+
+	public void EnableGameplayInput()
+	{
+		gameInput.Gameplay.Enable();
+		gameInput.Dialogues.Disable();
+		gameInput.Menus.Disable();
+	}
+
+	public void EnableUIInput()
+	{
+		gameInput.Gameplay.Disable();
+		gameInput.Dialogues.Disable();
+		gameInput.Menus.Enable();
+	}
+
+	public void DisableAllInput()
+	{
+		gameInput.Gameplay.Disable();
+		gameInput.Dialogues.Disable();
 	}
 }
