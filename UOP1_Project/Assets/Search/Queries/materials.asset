@@ -12,28 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: materials
   m_EditorClassIdentifier: 
-  description: 
-  icon: {fileID: 0}
   text: t:material
+  description: 
   providerIds:
   - asset
-  - store
-  - calculator
-  - find
-  - help
-  - menu
-  - object
-  - packages
-  - res
   - scene
-  - query
-  - settings
-  - static_methods
   viewState:
     itemSize: 1
     displayMode: 1
-    tableConfig:
-      id: 
-      name: 
-      priority: 0
-      m_Columns: []
+    group: 

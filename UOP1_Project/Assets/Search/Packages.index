@@ -1,0 +1,17 @@
+{
+    "name": "",
+    "type": "asset",
+    "roots": [
+        "Packages"
+    ],
+    "includes": [],
+    "excludes": [],
+    "options": {
+        "disabled": false,
+        "types": true,
+        "properties": true,
+        "extended": false,
+        "dependencies": false
+    },
+    "baseScore": 9999
+}
