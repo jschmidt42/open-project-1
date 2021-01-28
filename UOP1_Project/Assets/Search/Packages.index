@@ -5,7 +5,10 @@
         "Packages"
     ],
     "includes": [],
-    "excludes": [],
+    "excludes": [
+        ".cs",
+        ".json"
+    ],
     "options": {
         "disabled": false,
         "types": true,
