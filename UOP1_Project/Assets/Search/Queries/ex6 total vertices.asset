@@ -10,24 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: biggest mesh
+  m_Name: ex6 total vertices
   m_EditorClassIdentifier: 
-  text: 'first{sort{h: t:mesh, @vertices, desc}}'
-  description: 
+  text: 'sum{select{h:t:mesh, @vertices}} '
+  description: Report the total vertices in the scene.
   providerIds:
-  - help
   - expression
-  - calculator
-  - asset
-  - find
   - scene
-  - menu
-  - static_methods
-  - packages
-  - store
-  - query
-  - settings
   viewState:
-    itemSize: 20
+    itemSize: 14
     displayMode: 32
     group: expression

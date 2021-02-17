@@ -10,24 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ex sum vertices
+  m_Name: ex4 biggest meshes
   m_EditorClassIdentifier: 
-  text: 'sum{select{h: t:mesh, @vertices}}'
-  description: 
+  text: 'sort{select{h: t:mesh, @path, @vertices}, @vertices, desc} '
+  description: "Sort all mesh by their vertex count\r."
   providerIds:
-  - help
   - expression
-  - calculator
   - asset
-  - find
   - scene
-  - menu
-  - static_methods
-  - packages
-  - store
-  - query
-  - settings
+  - calculator
   viewState:
-    itemSize: 20
+    itemSize: 14
     displayMode: 32
-    group: expression
+    group: all

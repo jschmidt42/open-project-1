@@ -10,14 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: materials
+  m_Name: ex0 count
   m_EditorClassIdentifier: 
-  text: t:material
+  text: count{a:assets}
   description: 
   providerIds:
+  - expression
+  - calculator
   - asset
+  - find
   - scene
+  - menu
+  - static_methods
   viewState:
-    itemSize: 1
-    displayMode: 1
-    group: 
+    itemSize: 14
+    displayMode: 32
+    group: all

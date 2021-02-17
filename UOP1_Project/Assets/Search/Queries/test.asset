@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: textures width
+  m_Name: test
   m_EditorClassIdentifier: 
-  text: width=512
+  text: a:assets
   description: 
   providerIds:
   - help
@@ -23,11 +23,11 @@ MonoBehaviour:
   - scene
   - menu
   - static_methods
-  - packages
-  - store
-  - query
-  - settings
   viewState:
-    itemSize: 128
-    displayMode: 96
-    group: _group_provider_Textures
+    group: all
+    tableConfig:
+      id: 
+      name: 
+      priority: 0
+      showEmptyRows: 0
+      m_Columns: []
