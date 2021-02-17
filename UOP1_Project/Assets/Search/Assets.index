@@ -13,14 +13,15 @@
         "AddressableAssetsData/",
         "Editor/",
         "Search/",
+        "LocalizationFiles/",
         ".cs"
     ],
     "options": {
         "disabled": false,
         "types": true,
         "properties": true,
-        "extended": true,
-        "dependencies": true
+        "extended": false,
+        "dependencies": false
     },
     "baseScore": 100
 }

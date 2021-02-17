@@ -11,8 +11,8 @@
     ],
     "options": {
         "disabled": false,
-        "types": true,
-        "properties": true,
+        "types": false,
+        "properties": false,
         "extended": false,
         "dependencies": false
     },
