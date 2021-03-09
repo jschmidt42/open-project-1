@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0.12259701, g: 0.2735849, b: 0.24155717, a: 0}
   number: 0
   choice: 0
   valid: 0
@@ -351,8 +351,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: 
-  color: {r: 0, g: 0, b: 0, a: 0}
-  number: 0
+  color: {r: 0.23137255, g: 0.67058825, b: 0.25896722, a: 0}
+  number: -7
   choice: 0
   valid: 0
 --- !u!1 &1260052165 stripped
