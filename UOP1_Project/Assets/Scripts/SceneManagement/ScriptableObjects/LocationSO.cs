@@ -9,6 +9,4 @@ using UnityEngine.Localization;
 public class LocationSO : GameSceneSO
 {
 	public LocalizedString locationName;
-	public AudioClip musicTrack;
-	public int enemiesCount; //Example variable, will change later
 }
