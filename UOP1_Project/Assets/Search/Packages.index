@@ -10,7 +10,7 @@
         ".json"
     ],
     "options": {
-        "disabled": false,
+        "disabled": true,
         "types": false,
         "properties": false,
         "extended": false,
