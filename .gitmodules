@@ -1,0 +1,3 @@
+[submodule "com.unity.search.extensions"]
+	path = com.unity.search.extensions
+	url = git@github.com:lochrist/com.unity.search.extensions.git

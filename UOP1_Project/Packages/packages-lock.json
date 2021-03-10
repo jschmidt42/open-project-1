@@ -97,10 +97,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance-tracking": {
-      "version": "file:U:/packages/com.unity.performance-tracking",
+      "version": "https://github.com/Unity-Technologies/com.unity.performance-tracking.git",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "37b1526e84dd3a827aeda3df6e72cb9a3b298820"
     },
     "com.unity.polybrush": {
       "version": "1.1.0-pre.1",
@@ -163,6 +164,12 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
+    "com.unity.search.extensions": {
+      "version": "file:../../com.unity.search.extensions",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.searcher": {
       "version": "4.3.1",
