@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: prefab_modified
+  m_EditorClassIdentifier: 
+  text: "select{where{h:is:object, @~pc>0}, @path, @~pc, \n       @~pn[0], @~pv[0], 
+    @~pn[1], @~pv[1],  @~pn[2], @~pv[2],  @~pn[3], @~pv[3],  @~pn[4], @~pv[4],  @~pn[5],
+    @~pv[5]}"
+  description: "List modified prefabs and allow the user \nto reset the modified
+    values."
+  providerIds:
+  - expression
+  - scene
+  viewState:
+    itemSize: 129
+    displayMode: 129
+    group: all
+    tableConfig:
+      id: 7ef8e2a191ce47249408e08e6f6e1866
+      name: prefab_modified
+      columns:
+      - path: path
+        provider: Name
+        selector: path
+        width: 237
+        options: 3178496
+        content:
+          m_Text: Prefab
+          m_Image: {fileID: 2800000, guid: 3ff535dff5b9e5c4dbf8ace70ea5103a, type: 3}
+          m_Tooltip: 
+      - path: ~pc
+        provider: 
+        selector: ~pc
+        width: 32
+        options: 3211264
+        content:
+          m_Text: 
+          m_Image: {fileID: 2800000, guid: abb1306ea22102e43be4855a845a16da, type: 3}
+          m_Tooltip: 
+      - path: 0
+        provider: 
+        selector: ~pn[0]
+        width: 91
+        options: 3178496
+        content:
+          m_Text: Property 1
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 0
+        provider: 
+        selector: ~pv[0]
+        width: 76
+        options: 3178496
+        content:
+          m_Text: Override 1
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 1
+        provider: 
+        selector: ~pn[1]
+        width: 82
+        options: 3178496
+        content:
+          m_Text: Property 2
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 1
+        provider: 
+        selector: ~pv[1]
+        width: 75
+        options: 3178496
+        content:
+          m_Text: Override 2
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 2
+        provider: 
+        selector: ~pn[2]
+        width: 76
+        options: 3178496
+        content:
+          m_Text: Property 3
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 2
+        provider: 
+        selector: ~pv[2]
+        width: 78
+        options: 3178496
+        content:
+          m_Text: Override 3
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 3
+        provider: 
+        selector: ~pn[3]
+        width: 67
+        options: 3178496
+        content:
+          m_Text: Property 4
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 3
+        provider: 
+        selector: ~pv[3]
+        width: 75
+        options: 3178496
+        content:
+          m_Text: Override 4
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 4
+        provider: 
+        selector: ~pn[4]
+        width: 92
+        options: 3178496
+        content:
+          m_Text: Property 5
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: 4
+        provider: 
+        selector: ~pv[4]
+        width: 105
+        options: 3178496
+        content:
+          m_Text: Override 5
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+  icon: {fileID: 2800000, guid: 3ff535dff5b9e5c4dbf8ace70ea5103a, type: 3}
