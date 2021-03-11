@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: prefab_modified
   m_EditorClassIdentifier: 
-  text: "select{where{h:is:object, @~pc>0}, @path, @~pc, \n       @~pn[0], @~pv[0], 
-    @~pn[1], @~pv[1],  @~pn[2], @~pv[2],  @~pn[3], @~pv[3],  @~pn[4], @~pv[4],  @~pn[5],
-    @~pv[5]}"
+  text: select{where{h:is:object, @~pc>0}, @path, @~pc, @~pn[0], @~pv[0],  @~pn[1],
+    @~pv[1],  @~pn[2], @~pv[2],  @~pn[3], @~pv[3],  @~pn[4], @~pv[4]}
   description: "List modified prefabs and allow the user \nto reset the modified
     values."
   providerIds:
@@ -25,7 +24,7 @@ MonoBehaviour:
     displayMode: 129
     group: all
     tableConfig:
-      id: 7ef8e2a191ce47249408e08e6f6e1866
+      id: 4f72eec21367404ba5aacdd38641fa4d
       name: prefab_modified
       columns:
       - path: path
