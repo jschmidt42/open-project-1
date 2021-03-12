@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: pdb_debug
   m_EditorClassIdentifier: 
-  text: 'h: is:leaf'
+  text: map{select{first{5, h:is:leaf}, id}, pdb:"@value"}
   description: 
   providerIds:
   - help
@@ -30,8 +30,8 @@ MonoBehaviour:
     displayMode: 129
     group: all
     tableConfig:
-      id: c49a99e5f99549538be560a29d131ce9
-      name: pdb debug
+      id: 25b084bb11be483dadca7487a5ad8115
+      name: pdb_debug
       columns:
       - path: ID
         provider: 
