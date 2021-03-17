@@ -14,7 +14,7 @@ public class StepController : MonoBehaviour
 	[Header("Listening to channels")]
 	//[SerializeField] private StepChannelSO _startStepEvent = default;
 	//[SerializeField] private DialogueDataChannelSO _endDialogueEvent = default;
-	[SerializeField] private DialogueActorChannelSO _interactionEvent = default;
+	//[SerializeField] private DialogueActorChannelSO _interactionEvent = default;
 	//[SerializeField] private DialogueActorChannelSO _PlayDefaultEvent = default;
 	[SerializeField] private VoidEventChannelSO _winDialogueEvent = default;
 	[SerializeField] private VoidEventChannelSO _loseDialogueEvent = default;
