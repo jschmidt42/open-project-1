@@ -20,8 +20,8 @@
         "disabled": false,
         "types": true,
         "properties": true,
-        "extended": false,
-        "dependencies": false
+        "extended": true,
+        "dependencies": true
     },
     "baseScore": 100
 }

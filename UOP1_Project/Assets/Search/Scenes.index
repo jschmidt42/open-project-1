@@ -11,7 +11,7 @@
         "types": true,
         "properties": true,
         "extended": false,
-        "dependencies": false
+        "dependencies": true
     },
     "baseScore": 155
 }
