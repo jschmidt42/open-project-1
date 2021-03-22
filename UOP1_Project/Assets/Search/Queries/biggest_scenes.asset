@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: biggest_scenes
+  m_EditorClassIdentifier: 
+  text: sort{p:t:scene, size, desc}
+  description: 
+  providerIds:
+  - help
+  - expression
+  - calculator
+  - find
+  - scene
+  - asset
+  - menu
+  - static_methods
+  - perf
+  - pdb
+  - query
+  - settings
+  viewState:
+    itemSize: 129
+    displayMode: 129
+    group: all
+    tableConfig:
+      id: 120ba385d4d741f4b99863384930056b
+      name: biggest_scenes
+      columns:
+      - path: Default/Path
+        provider: 
+        selector: path
+        width: 510
+        options: 3178496
+        content:
+          m_Text: Path
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+      - path: Field/size
+        provider: 
+        selector: size
+        width: 81
+        options: 3276800
+        content:
+          m_Text: size
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+  icon: {fileID: 0}
