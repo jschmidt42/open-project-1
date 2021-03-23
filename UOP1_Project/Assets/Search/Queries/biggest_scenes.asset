@@ -32,11 +32,11 @@ MonoBehaviour:
     displayMode: 129
     group: all
     tableConfig:
-      id: 120ba385d4d741f4b99863384930056b
+      id: 6e101b89f51f4b75ac8e7c0c0065b45d
       name: biggest_scenes
       columns:
       - path: Default/Path
-        provider: 
+        provider: Name
         selector: path
         width: 510
         options: 3178496
