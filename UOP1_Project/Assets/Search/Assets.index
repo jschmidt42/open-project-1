@@ -2,7 +2,8 @@
     "name": "",
     "type": "asset",
     "roots": [
-        "Assets"
+        "Assets",
+        "Packages/com.unity.search.extensions/Queries"
     ],
     "includes": [],
     "excludes": [
@@ -11,8 +12,6 @@
         "TerrainPatches/",
         "TextMesh Pro/",
         "AddressableAssetsData/",
-        "Editor/",
-        "Search/",
         "Addons/",
         "LocalizationFiles/",
         ".cs"
