@@ -2,8 +2,7 @@
     "name": "",
     "type": "asset",
     "roots": [
-        "Assets",
-        "Packages/com.unity.search.extensions/Queries"
+        "Assets"
     ],
     "includes": [],
     "excludes": [
@@ -20,7 +19,7 @@
         "disabled": false,
         "types": true,
         "properties": true,
-        "extended": true,
+        "extended": false,
         "dependencies": true
     },
     "baseScore": 100
