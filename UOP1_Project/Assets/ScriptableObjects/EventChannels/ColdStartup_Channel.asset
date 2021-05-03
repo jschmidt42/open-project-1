@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35432205b9a6a374bbbfe6b7cac92179, type: 3}
-  m_Name: Attack
+  m_Script: {fileID: 11500000, guid: 82df99cd4c7564d4ca44d50a1dce516b, type: 3}
+  m_Name: ColdStartup_Channel
   m_EditorClassIdentifier: 
-  _actions:
-  - {fileID: 11400000, guid: 5cb6e4529b034ff4dbc7a7aa863ce969, type: 2}
-  - {fileID: 11400000, guid: 23e8862a3aca1b6439bda3bf27d03897, type: 2}
+  description: Raised to notify the SceneLoader that the user has pressed Play in
+    the editor from a Location scene.

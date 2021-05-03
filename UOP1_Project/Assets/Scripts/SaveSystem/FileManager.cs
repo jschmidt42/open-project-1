@@ -13,9 +13,9 @@ public static class FileManager
 			File.WriteAllText(fullPath, fileContents);
 			return true;
 		}
-		catch (Exception)
+		catch (Exception e)
 		{
-			//Debug.LogError($"Failed to write to {fullPath} with exception {e}");
+			Debug.LogError($"Failed to write to {fullPath} with exception {e}");
 			return false;
 		}
 	}
@@ -29,9 +29,9 @@ public static class FileManager
 			result = File.ReadAllText(fullPath);
 			return true;
 		}
-		catch (Exception)
+		catch (Exception e)
 		{
-			//Debug.LogError($"Failed to read from {fullPath} with exception {e}");
+			Debug.LogError($"Failed to read from {fullPath} with exception {e}");
 			result = "";
 			return false;
 		}
