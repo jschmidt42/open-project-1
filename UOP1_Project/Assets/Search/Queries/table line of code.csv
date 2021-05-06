@@ -1,0 +1,7 @@
+name,loc,path
+README,23,Assets/Scripts/Menu/README.md
+Assembly-CSharp-Editor-testable,18,Assets/Search/Editor/Assembly-CSharp-Editor-testable.asmdef
+UOP1.StateMachine,13,Assets/Scripts/StateMachine/UOP1.StateMachine.asmdef
+UOP1.StateMachine.Editor,17,Assets/Scripts/StateMachine/Editor/UOP1.StateMachine.Editor.asmdef
+CustomLighting,1,Assets/Shaders/CustomHLSL/CustomLighting.hlsl
+Outline,1,Assets/Shaders/Unused/Outline.hlsl

@@ -11,14 +11,4 @@ public class HouseProperties : MonoBehaviour
 
     [SearchContext("expression: h: ref=select{p:smallhouse -door, @path}", providers, flags)]
     public GameObject smallHouse;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
 }

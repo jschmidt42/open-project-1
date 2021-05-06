@@ -12,24 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: find_packages_glob
   m_EditorClassIdentifier: 
+  m_GUID: 49b69a360a8353244b0935e86e75eba9
   text: find:+packages **/*.cs
   description: 
-  providerIds:
-  - help
-  - expression
-  - calculator
-  - find
-  - scene
-  - asset
-  - menu
-  - static_methods
-  - perf
-  - pdb
-  - query
-  - settings
+  providerIds: []
   viewState:
     itemSize: 6
-    displayMode: 32
     group: all
     tableConfig:
       id: 

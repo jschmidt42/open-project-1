@@ -6169,7 +6169,7 @@ GameObject:
   - component: {fileID: 342385464}
   - component: {fileID: 342385463}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: BuildHouseHere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6188,7 +6188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   largeHouse: {fileID: 0}
-  smallHouse: {fileID: 0}
+  smallHouse: {fileID: 509722454}
 --- !u!4 &342385464
 Transform:
   m_ObjectHideFlags: 0
@@ -6197,7 +6197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342385462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.237022, y: -22.811888, z: 59.034466}
+  m_LocalPosition: {x: 42, y: 13.72, z: 24.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7587,6 +7587,12 @@ PrefabInstance:
 --- !u!4 &509722453 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4979656168905934439, guid: beb500f1956e77244b2a3b9ebe13f397,
+    type: 3}
+  m_PrefabInstance: {fileID: 509722452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &509722454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5643179977349848285, guid: beb500f1956e77244b2a3b9ebe13f397,
     type: 3}
   m_PrefabInstance: {fileID: 509722452}
   m_PrefabAsset: {fileID: 0}
