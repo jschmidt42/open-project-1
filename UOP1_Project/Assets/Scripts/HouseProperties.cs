@@ -4,7 +4,7 @@ using UnityEngine.Search;
 public class HouseProperties : MonoBehaviour
 {
 	const string providers = "expression,scene,asset";
-    const SearchContextFlags flags = SearchContextFlags.Centered | SearchContextFlags.GridView | SearchContextFlags.HideSearchBar;
+    const SearchViewFlags flags = SearchViewFlags.Centered | SearchViewFlags.GridView | SearchViewFlags.HideSearchBar;
 
     [SearchContext("expression: h: ref=select{p:bighouse, @path}", providers, flags)]
     public GameObject largeHouse;
