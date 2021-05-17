@@ -16,10 +16,4 @@ public class GameManager : MonoBehaviour
     {
         _questManager.StartGame(); 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

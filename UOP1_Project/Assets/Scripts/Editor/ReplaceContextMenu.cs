@@ -30,7 +30,9 @@ namespace UOP1.EditorTools.Replacer
 			{
 				focusedWindow = EditorWindow.focusedWindow;
 
+#pragma warning disable UNT0008 // Null propagation on Unity objects
 				if (focusedWindow?.GetType() == hierarchyType)
+#pragma warning restore UNT0008 // Null propagation on Unity objects
 				{
 					if (hierarchyGUI != null)
 						hierarchyGUI.onGUIHandler -= OnFocusedHierarchyGUI;

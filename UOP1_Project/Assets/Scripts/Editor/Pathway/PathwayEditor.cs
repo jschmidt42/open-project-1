@@ -14,7 +14,7 @@ public class PathwayEditor : Editor
 	private LIST_MODIFICATION _currentListModification;
 	private int _indexCurrentModification;
 
-	public void OnSceneGUI(SceneView sceneView)
+	public void OnSceneGUI2(SceneView sceneView)
 	{
 		int index = _pathwayHandles.DisplayHandles();
 		_pathWayNavMeshUI.RealTime(index);
@@ -44,7 +44,7 @@ public class PathwayEditor : Editor
 		_pathWayNavMeshUI = new PathWayNavMeshUI(_pathway);
 		_pathwayHandles = new PathwayHandles(_pathway);
 		_currentListModification = LIST_MODIFICATION.OTHER;
-		SceneView.duringSceneGui += this.OnSceneGUI;
+		SceneView.duringSceneGui += this.OnSceneGUI2;
 	}
 
 	private void OnDisable()
@@ -56,7 +56,7 @@ public class PathwayEditor : Editor
 		_reorderableList.onRemoveCallback -= RemoveItem;
 		_reorderableList.onChangedCallback -= ListModified;
 		_reorderableList.onMouseDragCallback -= DragItem;
-		SceneView.duringSceneGui -= this.OnSceneGUI;
+		SceneView.duringSceneGui -= this.OnSceneGUI2;
 	}
 
 	private void DrawHeader(Rect rect)

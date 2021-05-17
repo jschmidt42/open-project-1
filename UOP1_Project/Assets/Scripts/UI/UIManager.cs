@@ -73,10 +73,6 @@ public class UIManager : MonoBehaviour
 
 
 	}
-	private void Start()
-	{
-		
-	}
 
 	void ResetUI()
 	{

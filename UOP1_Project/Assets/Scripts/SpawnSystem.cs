@@ -41,7 +41,9 @@ public class SpawnSystem : MonoBehaviour
 		{
 			_spawnLocations[i] = spawnLocationsGO[i].transform;
 		}
+#pragma warning disable UNT0007 // Null coalescing on Unity objects
 		Spawn(FindSpawnIndex(_pathTaken?.Path ?? null));
+#pragma warning restore UNT0007 // Null coalescing on Unity objects
 	}
 
 	void Reset()
@@ -85,7 +87,9 @@ public class SpawnSystem : MonoBehaviour
 			return _defaultSpawnIndex;
 
 		int index = Array.FindIndex(_spawnLocations, element =>
+#pragma warning disable UNT0008 // Null propagation on Unity objects
 			element?.GetComponent<LocationEntrance>()?.EntrancePath == pathTaken
+#pragma warning restore UNT0008 // Null propagation on Unity objects
 		);
 
 		return (index < 0) ? _defaultSpawnIndex : index;

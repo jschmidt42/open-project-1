@@ -25,8 +25,8 @@ public partial class SceneSelector : EditorWindow
 
 	private class Textures
 	{
-		public Texture2D visibilityOn;
-		public Texture2D visibilityOff;
+		//public Texture2D visibilityOn;
+		//public Texture2D visibilityOff;
 	}
 
 	[Serializable]

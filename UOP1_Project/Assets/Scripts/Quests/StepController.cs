@@ -12,7 +12,7 @@ public class StepController : MonoBehaviour
 	[SerializeField] private QuestManagerSO _questData = default;
 
 	[Header("Listening to channels")]
-	[SerializeField] private DialogueActorChannelSO _interactionEvent = default;
+	//[SerializeField] private DialogueActorChannelSO _interactionEvent = default;
 	[SerializeField] private VoidEventChannelSO _winDialogueEvent = default;
 	[SerializeField] private VoidEventChannelSO _loseDialogueEvent = default;
 

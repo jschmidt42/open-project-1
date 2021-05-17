@@ -11,9 +11,8 @@ public class CutsceneManager : MonoBehaviour
 
 	[SerializeField] private PlayableDirectorChannelSO _playCutsceneEvent = default;
 
-	[SerializeField] public DialogueLineChannelSO _playDialogueEvent = default;
-
-	[SerializeField] public VoidEventChannelSO _pauseTimelineEvent = default;
+	public DialogueLineChannelSO _playDialogueEvent = default;
+	public VoidEventChannelSO _pauseTimelineEvent = default;
 
 	private PlayableDirector _activePlayableDirector;
 	private bool _isPaused;
