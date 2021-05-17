@@ -76,7 +76,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
+    - LIGHTMAP: 0
     - Vector1_5f1d304c3d1d4a37a9aa1ed047f04989: 1.13
     - _AlphaClip: 0
     - _Blend: 0
