@@ -1,9 +1,13 @@
 {
+    "name": "",
     "type": "scene",
-    "roots": [],
-    "includes": [".unity"],
+    "roots": ["Assets"],
+    "includes": [
+        ".unity"
+    ],
     "excludes": [],
     "options": {
+        "disabled": false,
         "types": true,
         "properties": false,
         "extended": true,

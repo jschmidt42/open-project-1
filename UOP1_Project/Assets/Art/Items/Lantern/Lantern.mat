@@ -76,8 +76,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Boolean_7876972C: 0
+    - LIGHTMAP: 0
     - Vector1_5C14D284: 0.1
     - Vector1_8606F96E: 0
     - Vector1_C20F4E26: 0

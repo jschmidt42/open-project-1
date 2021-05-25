@@ -2,10 +2,14 @@
     "name": "",
     "type": "asset",
     "roots": [
-        "Packages",
         "Assets"
     ],
-    "includes": [],
+    "includes": [
+        ".mat",
+        ".prefab",
+        ".png",
+        ".asset"
+    ],
     "excludes": [
         "Temp/",
         "External/",
@@ -13,16 +17,15 @@
         "TextMesh Pro/",
         "AddressableAssetsData/",
         "Addons/",
-        "com.unity/",
         "LocalizationFiles/",
         ".cs"
     ],
     "options": {
         "disabled": false,
-        "types": true,
-        "properties": false,
+        "types": false,
+        "properties": true,
         "extended": false,
-        "dependencies": false
+        "dependencies": true
     },
     "baseScore": 100
 }
