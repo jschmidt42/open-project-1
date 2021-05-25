@@ -13,16 +13,23 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: a7bae5f88e2e24365bdf768f42df85c5
+  m_CachedHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
   m_IgnoreUnsupportedFilesInBuild: 0
   m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
   m_maxConcurrentWebRequests: 500
   m_ContiguousBundles: 0
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: 
   m_RemoteCatalogLoadPath:
@@ -54,6 +61,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6c178783decb345a9a49e382f91762a2, type: 2}
   - {fileID: 11400000, guid: 9bfa09de6fa8c4c54805efdeb5b7f199, type: 2}
   - {fileID: 11400000, guid: bc31801e0ff294a5696a72bf9a9fd6a5, type: 2}
+  - {fileID: 11400000, guid: 228706e2611054445b6047fa69e4fd61, type: 2}
+  - {fileID: 11400000, guid: 8870cc4d3fca32e48970f43f412d44a8, type: 2}
+  - {fileID: 11400000, guid: e70c68cb5f116544db7936fdd0d65c4e, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
