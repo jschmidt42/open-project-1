@@ -2,7 +2,6 @@
     "name": "",
     "type": "asset",
     "roots": [
-        "Packages",
         "Assets"
     ],
     "includes": [],
@@ -20,9 +19,9 @@
     "options": {
         "disabled": false,
         "types": true,
-        "properties": false,
+        "properties": true,
         "extended": false,
-        "dependencies": false
+        "dependencies": true
     },
     "baseScore": 100
 }
