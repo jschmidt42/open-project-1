@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Colliders
+  m_Name: Trees
   m_EditorClassIdentifier: 
-  text: 'h: t:collider'
+  text: 'p: (*.fbx or *.prefab) tree'
   description: 
   providerIds: []
   viewState:
@@ -25,10 +25,10 @@ MonoBehaviour:
     - static_methods
     - menu
     - settings
-    searchFlags: 436207618
-    searchText: 'h: t:collider'
-    sessionId: fcbabe6a9a45491da6f5b857f0781625
-    sessionName: Colliders
+    searchFlags: 503316482
+    searchText: 'p: (*.fbx or *.prefab) tree'
+    sessionId: fadf8078cc244a8289113c5b4e635426
+    sessionName: Trees
     title: item
     itemSize: 32
     position:
@@ -39,9 +39,9 @@ MonoBehaviour:
       height: 0
     forceViewMode: 0
     flags: 0
-    group: scene
+    group: _group_provider_Scenes
     tableConfig:
       id: 
       name: 
       columns: []
-  icon: {fileID: 5725305819640465133, guid: 0000000000000000d000000000000000, type: 0}
+  icon: {fileID: 349475642118232294, guid: 0000000000000000d000000000000000, type: 0}
