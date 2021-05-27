@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Trees
   m_EditorClassIdentifier: 
-  text: 'p: (*.fbx or *.prefab) tree'
+  text: 'p: (*.fbx or *.prefab) (tree or rocks)'
   description: 
   providerIds: []
   viewState:
@@ -25,9 +25,9 @@ MonoBehaviour:
     - static_methods
     - menu
     - settings
-    searchFlags: 503316482
-    searchText: 'p: (*.fbx or *.prefab) tree'
-    sessionId: fadf8078cc244a8289113c5b4e635426
+    searchFlags: 436207626
+    searchText: 'p: (*.fbx or *.prefab) (tree or rocks)'
+    sessionId: 0ddc9c217dac4cbaa163478b362afe1d
     sessionName: Trees
     title: item
     itemSize: 32

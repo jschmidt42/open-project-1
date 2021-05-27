@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Colliders
   m_EditorClassIdentifier: 
-  text: 'h: t:collider'
+  text: 'h: t:collider  bamboo'
   description: 
   providerIds: []
   viewState:
@@ -25,9 +25,9 @@ MonoBehaviour:
     - static_methods
     - menu
     - settings
-    searchFlags: 436207618
-    searchText: 'h: t:collider'
-    sessionId: fcbabe6a9a45491da6f5b857f0781625
+    searchFlags: 436207626
+    searchText: 'h: t:collider  bamboo'
+    sessionId: bfec5409a4884f5ba41d4c35818c2be5
     sessionName: Colliders
     title: item
     itemSize: 32
