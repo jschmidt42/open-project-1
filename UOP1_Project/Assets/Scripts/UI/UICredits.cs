@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class UICredits : MonoBehaviour
 {
-	private UISettingFieldsFiller _settingFieldsFiller = default;
+	//private UISettingFieldsFiller _settingFieldsFiller = default;
 
 	public UnityAction closeCreditsAction;
 	[SerializeField]

@@ -88,7 +88,7 @@ namespace UOP1.StateMachine.Editor
 			listView.bindItem = null;
 
 			listView.itemsSource = assets;
-			listView.itemHeight = 16;
+			listView.fixedItemHeight = 16;
 			string labelClass = $"label-{(EditorGUIUtility.isProSkin ? "pro" : "personal")}";
 			listView.makeItem = () =>
 			{

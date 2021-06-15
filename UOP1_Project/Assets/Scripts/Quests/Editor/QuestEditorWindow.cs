@@ -468,7 +468,7 @@ public class QuestEditorWindow : EditorWindow
 			}
 		};
 		listview.itemsSource = itemsSource;
-		listview.itemHeight = 16;
+		listview.fixedItemHeight = 16;
 		listview.selectionType = SelectionType.Single;
 		listview.style.flexGrow = 1.0f;
 

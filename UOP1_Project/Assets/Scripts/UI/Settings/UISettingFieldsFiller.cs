@@ -9,7 +9,7 @@ public class UISettingFieldsFiller : MonoBehaviour
 	[SerializeField]
 	private UISettingItemFiller[] _settingfieldsList = default;
 	[SerializeField]
-	private InputReader _inputReader = default; 
+	//private InputReader _inputReader = default; 
 	public void FillFields(List<SettingField> settingItems)
 	{
 		for (int i = 0; i < _settingfieldsList.Length; i++)
@@ -85,26 +85,50 @@ public class UISettingFieldsFiller : MonoBehaviour
 		switch (QualitySettings.GetQualityLevel())
 		{
 
+#pragma warning disable CS0618 // Type or member is obsolete
 			case (int) QualityLevel.Beautiful:
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
 				title = QualityLevel.Beautiful.ToString(); 
+#pragma warning restore CS0618 // Type or member is obsolete
 				break;
+#pragma warning disable CS0618 // Type or member is obsolete
 			case (int)QualityLevel.Fantastic:
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
 				title = QualityLevel.Fantastic.ToString();
+#pragma warning restore CS0618 // Type or member is obsolete
 				break;
+#pragma warning disable CS0618 // Type or member is obsolete
 			case (int)QualityLevel.Fast:
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
 				title = QualityLevel.Fast.ToString();
+#pragma warning restore CS0618 // Type or member is obsolete
 
 				break;
+#pragma warning disable CS0618 // Type or member is obsolete
 			case (int)QualityLevel.Fastest:
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
 				title = QualityLevel.Fastest.ToString();
+#pragma warning restore CS0618 // Type or member is obsolete
 
 				break;
+#pragma warning disable CS0618 // Type or member is obsolete
 			case (int)QualityLevel.Good:
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
 				title = QualityLevel.Good.ToString();
+#pragma warning restore CS0618 // Type or member is obsolete
 
 				break;
+#pragma warning disable CS0618 // Type or member is obsolete
 			case (int)QualityLevel.Simple:
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
 				title = QualityLevel.Simple.ToString();
+#pragma warning restore CS0618 // Type or member is obsolete
 
 				break;
 

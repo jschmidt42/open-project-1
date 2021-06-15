@@ -9,7 +9,7 @@ public class Protagonist : MonoBehaviour
 	[SerializeField] private InputReader _inputReader = default;
 	public TransformAnchor gameplayCameraTransform;
 
-	[SerializeField] private VoidEventChannelSO _openInventoryChannel = default;
+	//[SerializeField] private VoidEventChannelSO _openInventoryChannel = default;
 
 	private Vector2 _inputVector;
 	private float _previousSpeed;
