@@ -66,7 +66,7 @@ public class StepSO : ScriptableObject
 	}
 	public DialogueDataSO StepToDialogue()
 	{
-		DialogueDataSO dialogueData = new DialogueDataSO();
+		DialogueDataSO dialogueData = ScriptableObject.CreateInstance<DialogueDataSO>();
 		dialogueData.SetActor(Actor);
 		if (DialogueBeforeStep != null)
 		{

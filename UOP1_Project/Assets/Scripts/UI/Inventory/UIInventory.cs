@@ -338,7 +338,7 @@ public class UIInventory : MonoBehaviour
 		if (_availableItemSlots.Count > selectedItemId && selectedItemId > -1)
 		{
 			//find the item 
-			Item itemToActOn = new Item();
+			Item itemToActOn = ScriptableObject.CreateInstance<Item>();
 			itemToActOn = _availableItemSlots[selectedItemId]._currentItem.Item;
 
 			//check the selected Item type
