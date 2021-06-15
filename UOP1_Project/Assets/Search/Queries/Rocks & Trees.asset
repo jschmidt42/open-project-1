@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13982, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Weather FX Particles
+  m_Name: Rocks & Trees
   m_EditorClassIdentifier: 
-  text: h:weather
+  text: 'p: (*.fbx or *.prefab) (tree or rocks)'
   description: 
   providerIds: []
   viewState:
@@ -25,10 +25,10 @@ MonoBehaviour:
     - static_methods
     - menu
     - settings
-    searchFlags: 436207618
-    searchText: h:weather
-    sessionId: d2f0e9bf1987474cb2ef7d0e29bff479
-    sessionName: Weather FX Particles
+    searchFlags: 436207626
+    searchText: 'p: (*.fbx or *.prefab) (tree or rocks)'
+    sessionId: 0ddc9c217dac4cbaa163478b362afe1d
+    sessionName: Trees
     title: item
     itemSize: 32
     position:
@@ -39,9 +39,9 @@ MonoBehaviour:
       height: 0
     forceViewMode: 0
     flags: 0
-    group: scene
+    group: _group_provider_Scenes
     tableConfig:
       id: 
       name: 
       columns: []
-  icon: {fileID: -1815927437859194943, guid: 0000000000000000d000000000000000, type: 0}
+  icon: {fileID: 349475642118232294, guid: 0000000000000000d000000000000000, type: 0}
