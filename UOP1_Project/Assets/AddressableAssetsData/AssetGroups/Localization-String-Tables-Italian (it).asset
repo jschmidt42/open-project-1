@@ -17,11 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: eff24038586784b2cb3432e5df0c0845
   m_SerializeEntries:
-  - m_GUID: 298f95f9e1762b54db041502d5a09ff3
-    m_Address: Questline Dialogue_it
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-it
   - m_GUID: 814875ad6f732459cbcaa6b34f05a466
     m_Address: Inventory Item Name_it
     m_ReadOnly: 1
@@ -40,11 +35,6 @@ MonoBehaviour:
     - Preload
   - m_GUID: 529d8c518367c45209cd34683f17a4f9
     m_Address: UI Misc_it
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-it
-  - m_GUID: 8d64c2a9fccc2614baa07c24841aca37
-    m_Address: Actors_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it

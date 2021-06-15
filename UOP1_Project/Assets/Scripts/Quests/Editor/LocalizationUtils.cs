@@ -62,5 +62,6 @@ public static class LocalizationUtils
 		
 		// At runtime (build or editor in play mode), we just get the localized string normally:
 		return localizedStringReference.GetLocalizedString();
+#endif
 	}
 }
