@@ -15,10 +15,10 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Italian
   m_Data:
     m_SerializedData: []
-  m_GUID: a0270fda6a161d6499e857ba309d1794
+  m_GUID: c29d8dc42aaf766429d7bec54cb6eb1e
   m_SerializeEntries:
-  - m_GUID: 529d8c518367c45209cd34683f17a4f9
-    m_Address: UI Misc_it
+  - m_GUID: 6ff28064e4e684b65b9c22aa501c01c5
+    m_Address: Interactions_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it
@@ -26,5 +26,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: bffab80dc16c4464b92b2e97b6a1964c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 9b025b9685d248a46b58c3da7f63d76c, type: 2}
-    - {fileID: 11400000, guid: 6719ec43fc73aff4f83ac92581be553a, type: 2}
+    - {fileID: 11400000, guid: 3375e03a29e12c74db7958133e077468, type: 2}
+    - {fileID: 11400000, guid: a235c72ab72c9494aafb85957b596528, type: 2}

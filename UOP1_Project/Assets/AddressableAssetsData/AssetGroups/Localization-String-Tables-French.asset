@@ -15,16 +15,17 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-French
   m_Data:
     m_SerializedData: []
-  m_GUID: 60a51c808ef0f2942854edd2633ad0dc
+  m_GUID: a03e1e4d6d832c240b67b8c65c66a59b
   m_SerializeEntries:
-  - m_GUID: 083d2bd7899c6424fb37092e347b1f87
-    m_Address: UI Misc_fr
+  - m_GUID: 75a54b82bfa6f4f9e8239e9940432c0d
+    m_Address: Interactions_fr
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fr
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: bffab80dc16c4464b92b2e97b6a1964c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: a3c751a07550cff4abe922ebe8c5f7c4, type: 2}
-    - {fileID: 11400000, guid: 4c140b871b4c18e46842dcef6b196f04, type: 2}
+    - {fileID: 11400000, guid: aa734b26428df8847be06964c75b5304, type: 2}
+    - {fileID: 11400000, guid: f2d3d7686f4ec334fbc1f4f15d25b18d, type: 2}
